@@ -1,17 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Raleway:wght@300;400&display=swap');
 
+:root {
+    --main-bg-color: #0716f7;
+  }
+
 * {
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: black;
-    border: 2px solid red;
+    background-color: var(--main-bg-color);
 }
 
 footer {
-    background-color: #000000;
+    background-color: var(--main-bg-color);
     color: #ffffff;
     height: 12vh;
     font-family: 'Baloo Bhaina 2', cursive;
