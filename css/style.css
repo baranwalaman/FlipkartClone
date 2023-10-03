@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Raleway:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    border: 2px solid red;
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    height: 12vh;
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-family: 'Raleway', sans-serif;
+}
+
+nav ul li{
+    list-style-type: none;
+}
+
+nav ul li a{
+    padding: 0 23px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav ul{
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
