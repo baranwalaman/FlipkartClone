@@ -2,16 +2,110 @@
 
 :root {
     --main-bg-color: #0716f7;
-  }
+}
 
 * {
     margin: 0;
     padding: 0;
+    /* overflow: hidden; */
 }
 
 header {
     background-color: var(--main-bg-color);
 }
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 0 23px;
+}
+
+nav ul li a:hover {
+    color: #2f1e1e;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav ul {
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    width: 575px;
+    height: 34px;
+    font-size: 15px;
+    border-radius: 6px;
+    margin: 0 40px;
+    padding: 0 0 0 20px;
+}
+
+.search btn{
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-family: 'Raleway', sans-serif;
+}
+
+nav {
+    display: flex;
+}
+
+
+.container{
+    min-height: calc(100vh - 60px - 12vh);
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+/* .slider{
+    margin-top: 15px;
+} */
+
+main{
+    background-color: red;
+}
+
+/* .slider-btn-img{
+    height: 20px;
+    width: 30px;
+}
+
+.slider-btn{
+    height: 60px;
+    width: 30px;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+    position: relative;
+    border-radius: 2px;
+}
+
+.slider-btn-left{
+    left: 30px;
+}
+
+.slider-btn-right{
+    right: 30px;
+}
+
+.container>div>img{
+    height: 290px;
+    margin: auto;
+} */
 
 footer {
     background-color: var(--main-bg-color);
@@ -19,21 +113,4 @@ footer {
     height: 12vh;
     font-family: 'Baloo Bhaina 2', cursive;
     font-family: 'Raleway', sans-serif;
-}
-
-nav ul li{
-    list-style-type: none;
-}
-
-nav ul li a{
-    padding: 0 23px;
-    color: #ffffff;
-    text-decoration: none;
-}
-
-nav ul{
-    height: 60px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
 }
