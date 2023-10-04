@@ -7,7 +7,6 @@
 * {
     margin: 0;
     padding: 0;
-    /* overflow: hidden; */
 }
 
 header {
@@ -66,17 +65,10 @@ nav {
 
 .container {
     min-height: calc(100vh - 60px - 12vh);
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
 }
 
-/* .slider{
-    margin-top: 15px;
-} */
-
 main {
-    background-color: red;
+    background-color: #f1f2f4;
 }
 
 .slider {
@@ -97,6 +89,10 @@ main {
     font-family: 'Raleway', sans-serif;
 }
 
+.cards {
+    display: flex;
+}
+
 .card-items img {
     width: 300px;
 }
@@ -107,36 +103,6 @@ main {
     flex-direction: column;
     width: 16vw;
 }
-
-/* .slider-btn-img{
-    height: 20px;
-    width: 30px;
-}
-
-.slider-btn{
-    height: 60px;
-    width: 30px;
-    border: none;
-    background-color: #fff;
-    cursor: pointer;
-    position: relative;
-    border-radius: 2px;
-}
-
-.slider-btn-left{
-    left: 30px;
-}
-
-.slider-btn-right{
-    right: 30px;
-}
-
-.container>div>img{
-    height: 290px;
-    margin: auto;
-} */
-
-
 
 footer {
     background-color: var(--main-bg-color);
