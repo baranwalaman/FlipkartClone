@@ -94,7 +94,8 @@ main {
 }
 
 .card-items img {
-    width: 300px;
+    width: 270px;
+    height: 250px;
 }
 
 .card-items {
